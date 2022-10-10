@@ -1,5 +1,5 @@
 # MyTeacher
-<h3>Portal para agendamentos de aulas online com um banco de dados para cadastrar e selecionar professores.</h3>
+<h4>Portal para agendamentos de aulas online com um banco de dados para cadastrar e selecionar professores.</h4>
 
 > Status do projeto: Em desenvolvimento
 

@@ -25,10 +25,10 @@ npm run dev
 <img src="Images/Exp1.jpeg" width="600rem">
 </div>
 <div>
-<img src="Images/Exp.jpeg" width="600rem">
+<img src="Images/Exp2.jpeg" width="600rem">
 </div>
 <div>
-<img src="Images/Exp.jpeg" width="600rem">
+<img src="Images/Exp3.jpeg" width="600rem">
 </div>
 
 

@@ -26,7 +26,6 @@ class ProfessorAPIView(APIView):
 class CadastrarAulaAPIView(APIView):
     def post(self, request, id, format = None):
         professor = get_object_or_404(Professor, id=id)
-        #professor = Professor.objects.get(id)
         serializer = CadastrarAulaSerializer(data=request.data)
         if serializer.is_valid():
             aula = Aula(
@@ -38,8 +37,10 @@ class CadastrarAulaAPIView(APIView):
             aula_serializer = AulaSerializer(aula, many=False)
             return Response(aula_serializer.data, status= HTTP_201_CREATED)
         return Response(
-            {"message": "Houveram erros de validação", 
+            {
+            "message": "Houveram erros de validação", 
             "erros": serializer.errors
             }, 
-            status=HTTP_400_BAD_REQUEST)
+            status=HTTP_400_BAD_REQUEST
+            )
     

@@ -21,9 +21,15 @@ Para rodar o frontend do projeto na sua máquina, execute no terminal:
 ```
 npm run dev
 ```
-
+<div>
+<img src="Images/Exp1.jpeg" width="600rem">
+</div>
+<div>
 <img src="Images/Exp.jpeg" width="600rem">
-
+</div>
+<div>
+<img src="Images/Exp.jpeg" width="600rem">
+</div>
 
 
 
